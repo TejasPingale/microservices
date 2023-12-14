@@ -1,0 +1,18 @@
+server:
+  port: 9093
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/studentserviceapp
+    username: root
+    password: Charlie@25
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  application:
+    name: BookService
+eureka:
+  instance:
+    hostname: localhost
